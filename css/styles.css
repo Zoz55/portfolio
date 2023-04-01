@@ -1,1 +1,144 @@
+/*
+#1d1d1d
+#08fdd8
+#64ffda
+*/
+
+/* Global styles
+------------------------------------*/
+body{
+background-color: #1d1d1d;
+color: #fff;
+font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,li a{
+    font-family: 'Caveat', cursive;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+img {
+    width: 200px;
+}
+  
+a{
+    text-decoration: none;
+    color: #64ffda;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+ol,ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content-wrap, .footer,header{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20PX;
+
+}
+
+
+/* Navigation bar styles
+------------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #64ffda;
+    margin: auto;
+}
+
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.header-list li{
+    
+    padding: 10px;
+    margin: 5px;
+    font-size: 27px;
+
+}
+.header-list a{
+    padding: 0px;
+}
+
+.header-list li:hover{
+    background-color: rgba(100, 255, 218,0.7);
+
+}
+
+
+
+/* Navigation bar styles
+------------------------------------*/
+
+.view{
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #1d1d1d;
+    border: 0px;
+    
+}
+
+.view:hover{
+    background-color: rgba(100, 255, 218,0.7);
+}
+
+
+
+/* Navigation bar styles
+------------------------------------*/
+
+
+
+
+
+
+/* Navigation bar styles
+------------------------------------*/
+
+
+
+
+
+
+
+
+/* footer styles
+------------------------------------*/
+
+.footer img{
+    width: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    
+}
+.contact li{
+padding: 20px;
+}
 
