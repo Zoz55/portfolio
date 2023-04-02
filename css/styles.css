@@ -11,24 +11,32 @@ background-color: #1d1d1d;
 color: #fff;
 font-family: 'Caveat', cursive;
 font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+line-height: 1.4;
 }
 
-h1,h2,li a{
+h1,h2, h4, a{
     font-family: 'Caveat', cursive;
 }
 
 h1{
-    font-size: 90px;
+    font-size: 100px;
     margin: 0;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 60px;
     margin: 20px 0px;
 }
 
 h3{
-    font-size: 25px;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 img {
@@ -38,9 +46,8 @@ img {
 a{
     text-decoration: none;
     color: #64ffda;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
     font-weight: 600;
+    font-size: 50px;
 }
 
 
@@ -53,7 +60,7 @@ ol,ul{
 .content-wrap, .footer,header{
     width: 900px;
     margin: 0 auto;
-    padding: 0 20PX;
+    padding: 20PX;
 
 }
 
@@ -78,11 +85,12 @@ header{
     
     padding: 10px;
     margin: 5px;
-    font-size: 27px;
+ 
 
 }
 .header-list a{
     padding: 0px;
+    font-size: 27px;
 }
 
 .header-list li:hover{
@@ -92,15 +100,18 @@ header{
 
 
 
-/* Navigation bar styles
+/* content styles
 ------------------------------------*/
 
 .view{
     padding: 8px;
     border-radius: 4px;
     background-color: #1d1d1d;
-    border: 0px;
-    
+    border: 2px;
+}
+
+.view a{
+    font-size: 20px;
 }
 
 .view:hover{
@@ -113,7 +124,27 @@ header{
 ------------------------------------*/
 
 
+element.style {
+    width: 95%;
+}
 
+footer div {
+    width: 0;
+    height: 100%;
+    background-color: #08fdd8;
+    -webkit-transition: width 1.3s ease-out;
+    transition: width 1.3s ease-out;
+    -webkit-box-direction: normal;
+}
+
+.chart footer {
+    background-color: #373737;
+    height: 2px;
+}
+
+.chart {
+    margin-bottom: 2rem;
+}
 
 
 
