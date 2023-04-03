@@ -93,8 +93,8 @@ header{
 
 .header-list li{
     margin: 0px 10px;
-    padding: 10px;
-    height: 60px;
+    padding: 5px;
+    height: 40px;
 }
 
 .header-list a{
@@ -232,6 +232,7 @@ padding: 20px;
 .certificate{
 display: grid;
 grid-template-columns: repeat(2,1fr);
+
 }
 
 .course-item{
@@ -249,15 +250,25 @@ grid-template-columns: repeat(2,1fr);
 
 .project-item .text {
     width: 600px;
-
 }
+
 }
 
 @media screen and (min-width:600px) {
+
     html{
         font-size: 20px;
     }
     
+    .header-list li{
+        margin: 0px 10px;
+        padding: 0;
+        height: 60px;
+    }
+    #logo{
+        width: 90px;
+        height: 70px;
+    }
 }
 
 
