@@ -70,6 +70,7 @@ ol,ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    height: 70px;
 }
 
 
@@ -84,6 +85,7 @@ header{
     display: flex;
     justify-content: space-between;
     color: #64ffda;
+    height: 70px;
 }
 
 
