@@ -55,6 +55,7 @@ h4{
 
 img {
     width: 200px;
+
 }
   
 a{
@@ -70,6 +71,7 @@ ol,ul{
     padding: 0px;
     margin: 0px;
 }
+
 
 
 
@@ -206,8 +208,13 @@ footer div {
 ------------------------------------*/
 .project-item{
     border-bottom: 1px dashed #08fdd8;
+    padding: 20px 0;
 }
 
+.links{
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
 /* footer styles
 ------------------------------------*/
 
